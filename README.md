@@ -1,1 +1,0 @@
-# gombo-config
