@@ -1,0 +1,16 @@
+[
+  {
+    "titre": "Airdrop Blum",
+    "description": "Mine des points Blum directement sur Telegram et prépare-toi pour le listing officiel.",
+    "codeInvitation": "blum_invite_code",
+    "lienParrainage": "https://t.me/BlumCryptoBot/app",
+    "lienVideoTuto": "https://www.youtube.com/@gombocrypto"
+  },
+  {
+    "titre": "Major Airdrop",
+    "description": "Deviens le Major du canal et gagne des jetons réels basés sur ton classement.",
+    "codeInvitation": null,
+    "lienParrainage": "https://t.me/majorbot",
+    "lienVideoTuto": null
+  }
+]
