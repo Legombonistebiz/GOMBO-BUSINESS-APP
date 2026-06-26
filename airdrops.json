@@ -1,15 +1,15 @@
 [
   {
     "titre": "SMS PROFIT",
-    "description": null,
+    "description": "Application de profit par SMS mobiles en $",
     "codeInvitation": null,
-    "lienParrainage": null,
+    "lienOfficiel": "https://smsprofit.net",
     "lienVideoTuto": null
   },
   {
     "titre": "MONEY SMS",
-    "description": null,
-    "codeInvitation": null,
+    "description": "Application de profit par SMS mobiles en €",
+    "codeInvitation": VK5PLPNM,
     "lienParrainage": null,
     "lienVideoTuto": null
   }
