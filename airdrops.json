@@ -1,16 +1,16 @@
 [
   {
-    "titre": "Airdrop Blum",
-    "description": "Mine des points Blum directement sur Telegram et prépare-toi pour le listing officiel.",
-    "codeInvitation": "blum_invite_code",
-    "lienParrainage": "https://t.me/BlumCryptoBot/app",
-    "lienVideoTuto": "https://www.youtube.com/@gombocrypto"
-  },
-  {
-    "titre": "Major Airdrop",
+    "titre": "SMS PROFIT",
     "description": null,
     "codeInvitation": null,
-    "lienParrainage": "https://t.me/majorbot",
+    "lienParrainage": null,
+    "lienVideoTuto": null
+  },
+  {
+    "titre": "MONEY SMS",
+    "description": null,
+    "codeInvitation": VK5PLPNM,
+    "lienParrainage": null,
     "lienVideoTuto": null
   }
 ]
