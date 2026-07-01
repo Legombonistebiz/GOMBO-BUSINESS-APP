@@ -2,23 +2,22 @@
   {
     "titre": "SMS PROFIT",
     "description": "Application de profit par SMS mobiles en $",
-    "codeInvitation": "null",
+    "codeInvitation": null,
     "lienParrainage": "https://smsprofit.net",
-    "lienVideoTuto": "null"
+    "lienVideoTuto": null
   },
   {
     "titre": "MONEY SMS",
     "description": "Application de profit par SMS mobiles en €",
-    "codeInvitation": VK5PLPNM,
+    "codeInvitation": "VK5PLPNM",
     "lienParrainage": "https://moneysmsapp.com",
     "lienVideoTuto": "https://youtu.be/omzVw0zKgWs"
   },
   {
-    "titre": "sweat wallet",
-    "description": "null",
-    "codeInvitation": VK5PLPNM,
+    "titre": "𝗦𝗪𝗘𝗔𝗧 𝗪𝗔𝗟𝗟𝗘𝗧",
+    "description": "",
+    "codeInvitation": "VK5PLPNM",
     "lienParrainage": "https://moneysmsapp.com",
     "lienVideoTuto": "https://youtu.be/tgi2lQNIaNg?si=ZQkIUJO3xpFI5yNH"
-  },
-
+  }
 ]
