@@ -15,16 +15,23 @@
   },
   {
     "titre": "SWEATCOIN & SWEATWALLET",
-    "description": "Une application qui récompense vos pas et un portefeuille crypto pour gérer les gains obtenus en marchant",
+    "description": "Application qui récompense vos pas et un portefeuille crypto pour gérer les gains obtenus en marchant",
     "codeInvitation": null,
     "lienParrainage": "https://swcapp.com/i/legombonistebiz",
     "lienVideoTuto": "https://youtu.be/tgi2lQNIaNg?si=ZQkIUJO3xpFI5yNH"
   },
   {
     "titre": "TRONPICK",
-    "description": "Un site gratuit pour gagner de la crypto TRX toutes les heures en résolvant des captchas et en jouant",
+    "description": "Site gratuit pour gagner de la crypto TRX toutes les heures en résolvant des captchas et en jouant",
     "codeInvitation": "LeGombonisteb",
     "lienParrainage": "https://tronpick.io/?ref=LeGombonisteb",
     "lienVideoTuto": "https://www.youtube.com/watch?v=0OQsjkv2wOk"
+  },
+  {
+    "titre": "DELTA",
+    "description": "Application de minage mobile gratuit de la crypto Delta via ICP",
+    "codeInvitation": "752J0T2TKU0MG",
+    "lienParrainage": "https://www.delta.kim/?referrer=752J0T2TKU0MG",
+    "lienVideoTuto": "https://youtu.be/mXoXFfiys9w?si=kNuemEMdDUjhEh6k"
   }
 ]
