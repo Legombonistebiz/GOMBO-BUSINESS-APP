@@ -113,9 +113,16 @@
   },
   {
     "titre": "OMEGA NETWORK",
+    "description": "Application de minage crypto mobile gratuit du jeton OMN",
+    "codeInvitation": "legombo",
+    "lienParrainage": "https://omtch.com/invite?ref=legombo",
+    "lienVideoTuto": null
+  },
+  {
+    "titre": "OMEGA NETWORK",
     "description": "Application de minage crypto mobile gratuit du jeton OMG",
     "codeInvitation": "legombo",
-    "lienParrainage": "https://omtch.com",
+    "lienParrainage": "https://omeganetwork.cloud/downloads",
     "lienVideoTuto": "https://youtu.be/rhaRI5_n0FM?si=j-735Eh4cMTj_3S-"
   }
 ]
