@@ -78,16 +78,44 @@
   },
   {
     "titre": "PCM WALLET",
-    "description": "Application de minage crypto mobile gratuit du jeton Cpen & INK",
+    "description": "Application de minage crypto mobile gratuit du jeton PCM",
     "codeInvitation": "S9ABCU",
     "lienParrainage": "https://pcmlabs.io/download.html",
     "lienVideoTuto": "https://youtu.be/6RVKSRm1U4o?si=BFoePcr-hs-Vf-JL"
   },
   {
     "titre": "PX NETWORK",
-    "description": "Application de minage crypto mobile gratuit du jeton Cpen & INK",
-    "codeInvitation": "LeGombonistebiz",
-    "lienParrainage": "https://www.cpen.io/?r=LeGombonistebiz",
+    "description": "Application de minage crypto mobile gratuit du jeton Px",
+    "codeInvitation": "T63DBFX",
+    "lienParrainage": "https://pxmine.com",
     "lienVideoTuto": "https://youtu.be/CEWzrQS4KMM?si=IyFw6zeeLehinOyQ"
+  },
+  {
+    "titre": "BITPIXL",
+    "description": "Application de minage crypto mobile gratuit du jeton BIXL",
+    "codeInvitation": "EN3KPHLP",
+    "lienParrainage": "https://bitpixl.com/EN3KPHLP",
+    "lienVideoTuto": "https://youtu.be/NSFcZOVCLDY?si=NelRdWWWbVDorjzB"
+  },
+  {
+    "titre": "MIREX NETWORK",
+    "description": "Application de minage crypto mobile gratuit du jeton LUM",
+    "codeInvitation": "legombonistebiz",
+    "lienParrainage": "https://mirex.io",
+    "lienVideoTuto": "https://youtu.be/PGzwkcZ01bM?si=U6tw5DOzGELFPxuM"
+  },
+  {
+    "titre": "BITGASE",
+    "description": "Application de minage crypto mobile gratuit de BITGASE & BITGEM",
+    "codeInvitation": null,
+    "lienParrainage": "https://app.bitgase.com/register?ref=o6mwXr",
+    "lienVideoTuto": "https://youtu.be/0iMhtCjxgjw?si=CydpqYdIMRWEK168"
+  },
+  {
+    "titre": "OMEGA NETWORK",
+    "description": "Application de minage crypto mobile gratuit du jeton OMG",
+    "codeInvitation": "legombo",
+    "lienParrainage": "https://omtch.com",
+    "lienVideoTuto": "https://youtu.be/rhaRI5_n0FM?si=j-735Eh4cMTj_3S-"
   }
 ]
