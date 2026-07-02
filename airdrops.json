@@ -25,7 +25,7 @@
     "description": "Site gratuit pour gagner de la crypto TRX toutes les heures en résolvant des captchas et en jouant",
     "codeInvitation": "LeGombonisteb",
     "lienParrainage": "https://tronpick.io/?ref=LeGombonisteb",
-    "lienVideoTuto": "https://www.youtube.com/watch?v=0OQsjkv2wOk"
+    "lienVideoTuto": "https://youtu.be/0OQsjkv2wOk"
   },
   {
     "titre": "DELTA",
@@ -33,5 +33,19 @@
     "codeInvitation": "752J0T2TKU0MG",
     "lienParrainage": "https://www.delta.kim/?referrer=752J0T2TKU0MG",
     "lienVideoTuto": "https://youtu.be/mXoXFfiys9w?si=kNuemEMdDUjhEh6k"
+  },
+  {
+    "titre": "BLOCKDAG X1",
+    "description": "Application de minage mobile de crypto BDAG",
+    "codeInvitation": "PI4u5PpL",
+    "lienParrainage": "https://blockdag.network/product/blockdagx1",
+    "lienVideoTuto": "https://youtu.be/g_sgci1CD8c?si=clbJa24thwspZMJY"
+  },
+  {
+    "titre": "PI NETWORK",
+    "description": "Application de minage mobile de crypto Pi",
+    "codeInvitation": "LeGombonistebiz",
+    "lienParrainage": "https://minepi.com/?u=LeGombonistebiz",
+    "lienVideoTuto": "https://youtu.be/_7lMjXRa8HA?si=Ewo2h8s02wzmjzFD"
   }
 ]
