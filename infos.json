@@ -1,3 +1,7 @@
 [
-  { "titre": "Un titre", "texte": "Le texte correspondant." }
+  {
+    "titre": "Un titre",
+    "texte": "Le texte correspondant.",
+    "date": "20/07/2026"
+  }
 ]
