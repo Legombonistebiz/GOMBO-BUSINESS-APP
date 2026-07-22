@@ -4,20 +4,23 @@
     "ligue": "Coupe du monde 2026",
     "dateEtHeure": "09 Juillet 2026 - 20:00 GMT",
     "pronosticChoisi": "V1 + Over 1.5 buts (Total MatchS)",
-    "cote": "1.96✅"
+    "cote": "1.96✅",
+    "score": "2 - 0"
   },
   {
     "equipes": "America Mineiro vs Londrina",
     "ligue": "Campeonato Brasileiro B",
     "dateEtHeure": "13 Juillet 2026 - 22:00 GMT",
     "pronosticChoisi": "Over 2.5 buts (Total MatchS)",
-    "cote": "2.17❌"
+    "cote": "2.17❌",
+    "score": "1 - 1"
   },
   {
     "equipes": "Keflavik vs iA Akranes",
     "ligue": "Urvalsdeild",
     "dateEtHeure": "20 Juillet 2026 - 19:15 GMT",
     "pronosticChoisi": "V1",
-    "cote": "2.36✅"
+    "cote": "2.36✅",
+    "score": "5 - 2"
   }
 ]
