@@ -1,0 +1,39 @@
+name: Build Android APK
+
+# Ceci indique quand lancer le processus :
+# 1. À chaque modification (push) sur la branche principale
+# 2. Manuellement via un bouton (workflow_dispatch)
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: 
+
+jobs:
+  build:
+    # GitHub va allumer un serveur Linux (Ubuntu) virtuel pour vous
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Récupérer les fichiers du dépôt
+        uses: actions/checkout@v4
+
+      - name: ☕ Configurer Java (Nécessaire pour Android)
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: '17' # Version recommandée pour les outils Android récents
+
+      - name: ⚙️ Donner les droits d'exécution au script
+        # Remplacez "create_gbkb.sh" par le nom exact de votre fichier si différent
+        run: chmod +x ./create_gbkb.sh
+
+      - name: 🚀 Lancer le script de création
+        run: ./create_gbkb.sh
+
+      - name: 📦 Récupérer le fichier APK généré
+        uses: actions/upload-artifact@v4
+        with:
+          name: MonApplication-APK
+          # Cherche automatiquement n'importe quel fichier .apk généré par le script
+          path: '**/*.apk' 
