@@ -22,18 +22,20 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: 'zulu'
-          java-version: '17' # Version recommandée pour les outils Android récents
+          java-version: '17' 
 
       - name: ⚙️ Donner les droits d'exécution au script
-        # Remplacez "create_gbkb.sh" par le nom exact de votre fichier si différent
-        run: chmod +x ./create_gbkb.sh
+        # Autorise le serveur à exécuter votre fichier
+        run: chmod +x ./GOMBO_BUSINESS_V1_3_5.sh
 
       - name: 🚀 Lancer le script de création
-        run: ./create_gbkb.sh
+        run: ./GOMBO_BUSINESS_V1_3_5.sh
 
       - name: 📦 Récupérer le fichier APK généré
         uses: actions/upload-artifact@v4
         with:
-          name: MonApplication-APK
-          # Cherche automatiquement n'importe quel fichier .apk généré par le script
+          # Le nom du dossier zip que vous allez télécharger à la fin
+          name: GomboBusiness-APK
+          # Cherche automatiquement n'importe quel fichier .apk généré
           path: '**/*.apk' 
+          
