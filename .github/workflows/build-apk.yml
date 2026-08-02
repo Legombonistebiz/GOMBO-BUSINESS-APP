@@ -1,0 +1,66 @@
+name: Build APK - Gombo Business
+
+# Se déclenche automatiquement à chaque push touchant le script, et aussi
+# manuellement depuis l'onglet "Actions" de GitHub (bouton "Run workflow").
+on:
+  push:
+    paths:
+      - "**/GOMBO_BUSINESS_V*.sh"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write   # nécessaire pour publier la release avec l'APK
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le code du dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer le JDK 17 (requis par AGP 8.3.2)
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Installer le SDK Android
+        uses: android-actions/setup-android@v3
+
+      - name: Installer les paquets SDK nécessaires (platform 34 + build-tools)
+        run: |
+          yes | sdkmanager --licenses > /dev/null || true
+          sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0"
+
+      - name: Préparer Gradle 8.6 (le script ne génère pas de wrapper)
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.6"
+
+      - name: Exécuter le script pour générer le projet Android
+        run: |
+          SCRIPT_FILE=$(find . -maxdepth 2 -iname "GOMBO_BUSINESS_V*.sh" | head -n1)
+          echo "Script détecté : $SCRIPT_FILE"
+          chmod +x "$SCRIPT_FILE"
+          bash "$SCRIPT_FILE"
+
+      # Debug plutôt que Release : signé automatiquement avec le keystore de
+      # debug par défaut, donc directement installable sur un téléphone sans
+      # configuration de signature supplémentaire à ajouter dans le script.
+      - name: Compiler l'APK (assembleDebug)
+        working-directory: GomboBusinessApp
+        run: gradle assembleDebug --stacktrace
+
+      - name: Mettre l'APK en pièce jointe du run (téléchargeable dans l'onglet Actions)
+        uses: actions/upload-artifact@v4
+        with:
+          name: gombo-business-debug-apk
+          path: GomboBusinessApp/app/build/outputs/apk/debug/app-debug.apk
+
+      - name: Publier/actualiser une Release GitHub avec l'APK
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest-build
+          name: Dernier build automatique
+          files: GomboBusinessApp/app/build/outputs/apk/debug/app-debug.apk
