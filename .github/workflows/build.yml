@@ -26,10 +26,10 @@ jobs:
 
       - name: ⚙️ Donner les droits d'exécution au script
         # Autorise le serveur à exécuter votre fichier
-        run: chmod +x ./GOMBO_BUSINESS_V1_3_5.sh
+        run: chmod +x ./GOMBO_BUSINESS_V1_3_6.sh
 
       - name: 🚀 Lancer le script de création
-        run: ./GOMBO_BUSINESS_V1_3_5.sh
+        run: ./GOMBO_BUSINESS_V1_3_6.sh
 
       - name: 📦 Récupérer le fichier APK généré
         uses: actions/upload-artifact@v4
