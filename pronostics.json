@@ -3,7 +3,7 @@
     "equipes": "France vs Maroc",
     "ligue": "Coupe du monde 2026",
     "dateEtHeure": "09 Juillet 2026 - 20:00 GMT",
-    "pronosticChoisi": "V1 + Over 1.5 buts (Total MatchS)",
+    "pronosticChoisi": "V1 + Over 1.5 buts (Total Matchs)",
     "cote": "1.96✅",
     "score": "2 - 0"
   },
@@ -11,7 +11,7 @@
     "equipes": "America Mineiro vs Londrina EC",
     "ligue": "Campeonato Brasileiro B",
     "dateEtHeure": "13 Juillet 2026 - 22:00 GMT",
-    "pronosticChoisi": "Over 2.5 buts (Total MatchS)",
+    "pronosticChoisi": "Over 2.5 buts (Total Matchs)",
     "cote": "2.17❌",
     "score": "1 - 1"
   },
@@ -27,8 +27,16 @@
     "equipes": "AC Sparta Prague vs Lyon",
     "ligue": "CHAMPIONS DE L' UEFA",
     "dateEtHeure": "04 Août 2026 - 18:00 GMT",
-    "pronosticChoisi": "V2 + Over 1.5 buts (Total MatchS)",
+    "pronosticChoisi": "V2 + Over 1.5 buts (Total Matchs)",
     "cote": "2.375❌",
     "score": "2 - 1"
+  },
+  {
+    "equipes": "CSKA Moscou vs Lokomotiv Moscou",
+    "ligue": "Coupe de Russie",
+    "dateEtHeure": "29 Octobre 2026 - 16:30 GMT",
+    "pronosticChoisi": "V1 + Over 1.5 buts (Total Matchs)",
+    "cote": "2.25",
+    "score": null
   }
 ]
