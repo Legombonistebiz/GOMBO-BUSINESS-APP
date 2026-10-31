@@ -17,4 +17,3 @@ jobs:
             git config user.email "bot@users.noreply.github.com"
             git commit -am "Scores mis à jour" && git push
           fi
-          
