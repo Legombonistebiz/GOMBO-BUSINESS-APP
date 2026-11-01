@@ -42,9 +42,17 @@
   {
     "equipes": "LOSC Lille vs Racing Club de Lens",
     "ligue": "Ligue 1",
-    "dateEtHeure": "30 Octobre 2026 - 20:05 GMT",
+    "dateEtHeure": "30 octobre 2026 - 20:05 GMT",
     "pronosticChoisi": "V1",
     "cote": "2.837 ✅",
     "score": "1 - 0"
+  },
+  {
+    "equipes": "Braga vs Famalicão",
+    "ligue": "Portugal. Primeira Liga",
+    "dateEtHeure": "1 Novembre 2026 - 20:30 GMT",
+    "pronosticChoisi": "V1",
+    "cote": "1.765",
+    "score": null
   }
 ]
