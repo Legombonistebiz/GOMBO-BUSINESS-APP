@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Met à jour pronostics.json : score final + ✅ / ❌ dans le champ "cote" quand un match est terminé."""
+"""Met à jour pronostics.json : score à la fin du temps réglementaire (les prolongations ne comptent pas) + ✅ / ❌ dans le champ "cote" quand un match est terminé."""
 import json, re, sys, unicodedata, urllib.request, datetime as dt
 
 FICHIER = sys.argv[1] if len(sys.argv) > 1 else "pronostics.json"
@@ -53,6 +53,22 @@ def telecharger(url, entetes=None):
 
 CACHE = {}
 
+def reglementaire_espn(comp, sc):
+    """Score à la fin du temps réglementaire (90 min + arrêts de jeu) : les buts de prolongation (minutes 91 à 130) ne comptent pas."""
+    ids = {c.get("homeAway"): str((c.get("team") or {}).get("id")) for c in comp.get("competitors", [])}
+    reg = {"home": 0, "away": 0}; pro = {"home": 0, "away": 0}
+    for dj in comp.get("details") or []:
+        if not dj.get("scoringPlay") or dj.get("shootout"): continue
+        m = re.match(r"(\d+)", str((dj.get("clock") or {}).get("displayValue", "")))
+        if not m: return sc
+        base = int(m.group(1))
+        if base > 130: continue
+        cote = "home" if str((dj.get("team") or {}).get("id")) == ids.get("home") else "away"
+        (pro if base >= 91 else reg)[cote] += 1
+    if pro["home"] + pro["away"] == 0: return sc
+    if reg["home"] + pro["home"] == sc["home"] and reg["away"] + pro["away"] == sc["away"]: return reg
+    return sc
+
 def termines(jour):
     """Tous les matchs terminés d'un jour, de trois sources : ESPN, Sofascore, TheSportsDB -> liste de (domicile, extérieur, buts dom., buts ext.)."""
     if jour in CACHE: return CACHE[jour]
@@ -64,6 +80,7 @@ def termines(jour):
         if len(cs) != 2 or not comp.get("status", {}).get("type", {}).get("completed"): continue
         noms = {c.get("homeAway"): (c.get("team") or {}).get("displayName", "") for c in cs}
         sc = {c.get("homeAway"): int(c.get("score") or 0) for c in cs}
+        sc = reglementaire_espn(comp, sc)
         if "home" in noms and "away" in noms: liste.append((noms["home"], noms["away"], sc["home"], sc["away"]))
     nb_espn = len(liste)
     d = telecharger("https://api.sofascore.com/api/v1/sport/football/scheduled-events/" + jour.strftime("%Y-%m-%d"),
