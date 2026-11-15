@@ -1,11 +1,22 @@
 {
-  "versionCode": 137,
-  "versionName": "1.3.7",
-  "apkUrl": "https://raw.githubusercontent.com/Legombonistebiz/GOMBO-BUSINESS-APP/main/apk/Gombo_Business_v1.3.7.apk",
+  "versionCode": 138,
+  "versionName": "1.3.8",
+  "apkUrl": "https://raw.githubusercontent.com/Legombonistebiz/GOMBO-BUSINESS-APP/main/apk/Gombo_Business_v1.3.8.apk",
   "changelog": [
-    "Correction de bugs et stabilité générale",
-    "Optimisation des sections Airdrops et Pronostics",
-    "Améliorations diverses de l'interface"
+    "Pronostics : score et minute en direct, statistiques du match et confrontations précédentes.",
+    "Le résultat (gagné ou perdu) est calculé tout seul à la fin du match, sur le temps réglementaire.",
+    "Notifications parlées : buts, mi-temps, fin de match, nouveaux matchs, airdrops et wallets. Chacune s'active ou se désactive dans les Paramètres.",
+    "Rappel 30 minutes avant chaque match.",
+    "Assistant Gombo : une page à part, avec micro, qui répond à vos questions sur l'application.",
+    "Sauvegarde : une page dédiée dans les Paramètres, avec copie automatique chiffrée dans Documents, à chaque changement et chaque jour. Aucun ancien fichier n'est écrasé.",
+    "Informations de récupération : plusieurs comptes par fiche, chiffrés sur votre téléphone.",
+    "Mon compte : créez un compte gratuit pour vous connecter.",
+    "Le profil (prénom, nom, nom d'utilisateur) est demandé au premier lancement.",
+    "Fond noir pur en mode sombre et fond animé plus léger.",
+    "Défilement plus fluide : une page à la fois, des textes de même taille sur toutes les pages.",
+    "Widgets : airdrops et dernier pronostic avec le score en direct.",
+    "Mise à jour de l'application présentée comme une boutique d'applications.",
+    "Fenêtres Mon compte et Sauvegarde plus modernes et plus compactes."
   ],
   "forceUpdate": false
 }
