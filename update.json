@@ -1,15 +1,22 @@
 {
-  "versionCode": 138,
-  "versionName": "1.3.8",
-  "apkUrl": "https://raw.githubusercontent.com/Legombonistebiz/GOMBO-BUSINESS-APP/main/apk/Gombo_Business_v1.3.8.apk",
+  "versionCode": 139,
+  "versionName": "1.3.9",
+  "apkUrl": "https://raw.githubusercontent.com/Legombonistebiz/GOMBO-BUSINESS-APP/main/apk/Gombo_Business_v1.3.9.apk",
   "changelog": [
-    "Première ouverture : une seule fenêtre pour votre profil, vos informations d'auto-remplissage et, si vous le souhaitez, votre compte.",
-    "Moins de fenêtres au démarrage : seule l'autorisation des notifications est demandée, le micro et la position le sont quand vous vous en servez.",
-    "Le bouton Regarder vous laisse choisir : lire la vidéo dans l'application ou sur YouTube. Lecteur intégré amélioré, avec plein écran.",
+    "Première ouverture : une seule fenêtre (profil, auto-remplissage, compte facultatif).",
+    "Moins de fenêtres au démarrage.",
+    "Bouton Regarder : lire la vidéo dans l'application ou sur YouTube.",
     "Le nombre d'installations de la Communauté est plus fiable.",
-    "Une notification vous prévient quand une nouvelle version de l'application est disponible.",
-    "Correction d'un problème qui pouvait fermer l'application à la première ouverture après une réinstallation.",
-    "En cas de problème au lancement, un rapport lisible s'affiche à l'ouverture suivante."
+    "Paramètres rangés en sections, avec des tuiles de même taille.",
+    "Accueil : une barre de recherche trouve un projet, un code ou un lien.",
+    "Partager l'application : par lien ou par fichier d'installation.",
+    "Économie de données automatique : sur données mobiles, pas de nouveaux logos téléchargés. Tout se met à jour en Wi-Fi.",
+    "Tableau de bord du créateur : installations, actifs, nouveaux, versions.",
+    "Date de naissance : jour, mois et année qui défilent.",
+    "Suggestions affichées au-dessus du champ, hors du clavier.",
+    "Notification quand une nouvelle version est disponible.",
+    "Correction : plus de fermeture au premier lancement après une réinstallation.",
+    "Un problème au lancement affiche un rapport clair à l'ouverture suivante."
   ],
   "forceUpdate": false
 }
