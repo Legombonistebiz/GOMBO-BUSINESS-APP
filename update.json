@@ -1,6 +1,7 @@
 {
   "versionCode": 139,
   "versionName": "1.3.9",
+  "buildId": "fe67e78350105a1838f51a84",
   "apkUrl": "https://raw.githubusercontent.com/Legombonistebiz/GOMBO-BUSINESS-APP/main/apk/Gombo_Business_v1.3.9.apk",
   "changelog": [
     "Première ouverture : une seule fenêtre (profil, auto-remplissage, compte facultatif).",
