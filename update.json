@@ -1,11 +1,14 @@
 {
   "versionCode": 139,
   "versionName": "1.3.9",
-  "buildId": "2bf1e38b55adf33c14de7f9b",
+  "buildId": "0ff4b9577338bd501e90617f",
   "apkUrl": "https://raw.githubusercontent.com/Legombonistebiz/GOMBO-BUSINESS-APP/main/apk/Gombo_Business_v1.3.9.apk",
   "changelog": [
     "Première ouverture : une seule fenêtre (profil, auto-remplissage, compte facultatif).",
     "Moins de fenêtres au démarrage.",
+    "Partager : remplacez d'abord le lien et le code par les vôtres, puis choisissez Partager ou Partager en image. Le QR code de partage est retiré.",
+    "Rejoindre : copiez d'abord le code, le bouton s'active ensuite.",
+    "Pièces d'identité : passeport, permis, carte d'électeur et d'autres, à ajouter une par une avec le bouton +.",
     "Bouton Regarder : lire la vidéo dans l'application ou sur YouTube.",
     "Le nombre d'installations de la Communauté est plus fiable.",
     "Paramètres rangés en sections, avec des tuiles de même taille.",
