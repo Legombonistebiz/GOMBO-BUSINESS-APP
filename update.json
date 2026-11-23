@@ -1,7 +1,7 @@
 {
   "versionCode": 140,
   "versionName": "1.4.0",
-  "buildId": "5b9e2f22c357de73381f8bcc",
+  "buildId": "8fec44c84f0e05c4ff219d96",
   "apkUrl": "https://raw.githubusercontent.com/Legombonistebiz/GOMBO-BUSINESS-APP/main/apk/Gombo_Business_v1.4.0.apk",
   "changelog": [
     "Comptes : un seul bouton par projet. Chaque compte a son mode de connexion, son identifiant, son mot de passe et ses informations de récupération.",
